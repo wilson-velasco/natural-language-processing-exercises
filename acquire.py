@@ -30,7 +30,7 @@ def get_blog_articles(urls):
 
     return code_up_dict
 
-def get_news_articles(categories=['business', 'sports', 'technology', 'business']):
+def get_news_articles(categories=['business', 'sports', 'technology', 'entertainment']):
     '''Takes in a list of categories (default is Business, Sports, Technology, and Business).
     
     Outputs a list of dictionaries to include the title and content of the news article, as well as the category.'''
